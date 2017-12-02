@@ -12,13 +12,6 @@ app.listen(3000, () => {
   console.log('My first app listening on port 3000!')
 });
 
-<<<<<<< Updated upstream
-=======
-app.set('views', __dirname + '/views');
-
-app.set('view engine', 'ejs');
-
->>>>>>> Stashed changes
 // ----- Routes -----
 
 // Our first route
