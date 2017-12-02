@@ -20,17 +20,18 @@ app.get('/', (req, res, next) => {
   res.render('index');
 })
 
-// Our second route incorporating CSS
-// app.get('/hello', (request, response, next) => {
-//   response.send(`
-//     <!doctype html>
-//     <html>
-//       <head>
-//         <link rel="stylesheet" href="stylesheets/style.css">
-//       </head>
-//       <body>
-//         This is my second route.
-//       </body>
-//     </html>
-//   `);
-// });
+// Starter code for "index.ejs"
+
+// <!DOCTYPE html>
+// <html lang="en">
+// <head>
+//   <meta charset="utf-8">
+//   <title>My First View</title>
+//   <link rel="stylesheet" href="stylesheet/style.css">
+// </head>
+// <body>
+//   <h1>Ironhacker Be Like</h1>
+//   <img src="https://media.giphy.com/media/l0MYEqEzwMWFCg8rm/giphy.gif">
+// </body>
+// </html>
+
