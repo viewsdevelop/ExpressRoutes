@@ -12,8 +12,6 @@ app.listen(3000, () => {
   console.log('My first app listening on port 3000!')
 });
 
-app.set('views', __dirname + '/views');
-
 // ----- Routes -----
 
 // Our first route
